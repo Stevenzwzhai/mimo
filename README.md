@@ -1,13 +1,14 @@
 # mimoz
 a small date library
 ```
-npm install mimoz
+npm install z-mimo
 ```
 #### 引入方式
 amd/cmd/node module/es6
 #### 日期格式化，传入日期对象，可调用方法：
 ```
-var date = mimoz(new Date())
+var mimo = require('z-mimo')
+var date = mimo(new Date())
 //获取年月日时分秒
 date.formatAll([split])//默认分隔符(split)为‘-’，2018-04-02 15-34-13
 //获取日期
