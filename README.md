@@ -1,4 +1,4 @@
-# mimoz
+# z-mimo
 a small date library
 ```
 npm install z-mimo
